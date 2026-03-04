@@ -42,9 +42,8 @@
     button{
         font-size: 16px;
         font-weight: 400;
-        width: 90px;
         margin-left: 10px;
-        padding: 8px;
+        padding: 8px 16px;
         background-color: #FF6A00;
         color: white;
         border: none;
@@ -92,5 +91,6 @@
         color: #FF6A00;
         transform: scale(1.08);
     }
+
 
 
