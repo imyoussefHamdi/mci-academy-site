@@ -3,7 +3,7 @@
         padding: 0;
         box-sizing: border-box;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Cairo', sans-serif;
     }
 
     body{
@@ -104,3 +104,4 @@
         color: #FF6A00;
         transform: scale(1.08);
     }
+
