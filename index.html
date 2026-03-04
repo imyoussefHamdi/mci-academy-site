@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar - mci academy</title>
+    <title>الصفحة الرئيسية</title>
     <meta name="description" content="موقع أكاديمية MCI">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
@@ -11,21 +11,28 @@
 </head>
 <body spellcheck="false">
     <header>
-        <a href="#" class="logo"><img src="images/logo mci.png" alt=""></a>
+        <div class="NavBar">
+            <a href="#" class="logo"><img src="images/logo mci.png" alt=""></a>
 
-        <ul>
-            <li><a href="#">اتصل بنا</a></li>
-            <li><a href="#">التقديم</a></li>
-            <li><a href="#">عن المعهد</a></li>
-            <li><a href="#">الرئيسية</a></li>
-            <button class="button">تسجيل دخول</button>
-            <button class="button">انشاء حساب</button>
-        </ul>
+            <div class="Menu">
+                <ul>
+                    <li class="ElementOfNavBar"><a class="active" href="index.html">الرئيسية</a></li>
+                    <li class="ElementOfNavBar"><a href="about.html">عن المعهد</a></li>
+                    <li class="ElementOfNavBar"><a href="Application.html">التقديم</a></li>
+                    <li class="ElementOfNavBar"><a href="Contact.html">اتصل بنا</a></li>
+                </ul>
+
+                <div class="auth-buttons">
+                    <button class="button-sign">تسجيل دخول</button>
+                    <button class="button-sign">انشاء حساب</button>
+                </div>
+            </div>
+        </div>
     </header>
 
     
-    <section>
-        <h2>فريق العمل</h2>
+    <section class="hero">        
+        <h2 class="TeamList">فريق العمل</h2>
         <a class="Names"  href="https://www.facebook.com/yousef.hamdi.52351/?locale=ar_AR" target="_blank">يوسف حمدي</a>
         <a class="Names" href="https://www.facebook.com/nwr.shahyn.627848?locale=ar_AR" target="_blank">نورالدين شاهين</a>
         <a class="Names" href="https://www.facebook.com/ahmed.kaled.788392?locale=ar_AR" target="_blank">احمد خالد</a>
@@ -33,9 +40,3 @@
     </section>
 </body>
 </html>
-
-
-
-
-
-
