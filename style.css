@@ -101,39 +101,40 @@
         transform: scale(1.08);
     }
 
-@media (max-width: 768px){
+   @media (max-width:768px){
+   
+   .NavBar{
+       flex-direction: column;
+       align-items: center;
+       gap: 12px;
+   }
+   
+   .Menu{
+       flex-direction: column;
+       align-items: center;
+   }
+   
+   .Menu ul{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 10px;
+       list-style: none;
+   }
+   
+   .ElementOfNavBar a{
+       margin-right: 0;
+       font-size: 16px;
+   }
+   
+   .button-sign{
+       width: 140px;
+       margin: 5px 0;
+   }
+   
+   .logo img{
+       width: 35px;
+   }
+   
+   }
 
-    .NavBar{
-        padding: 12px 5%;
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .Menu{
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .ElementOfNavBar a{
-        font-size: 16px;
-        margin-right: 0;
-    }
-
-    .logo img{
-        width: 35px;
-    }
-
-    .button-sign{
-        font-size: 14px;
-        padding: 6px 12px;
-    }
-
-    .TeamList{
-        font-size: 26px;
-    }
-
-    .Names{
-        font-size: 20px;
-    }
-
-}
