@@ -11,35 +11,43 @@
         width: 100%;
     }
 
-    header{
+    .NavBar{
         background: #243B6B;
         padding: 15px 9%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: row-reverse;
     }
 
     .logo img{
-        width: 30px;
+        width: 45px;
         height: auto;
     }
 
-    li{
+    .Menu{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .ElementOfNavBar{
         display: inline-block;
     }
 
-    li a{
+    .ElementOfNavBar a{
         color: white;
         font-size: 18px;
         font-weight: 600;
         margin-right: 25px;
     }
 
-    li a:hover{
+    .ElementOfNavBar a:hover,
+    .ElementOfNavBar a.active{
         color: #FF6A00;
     }
 
-    .button{
+    .button-sign{
         font-size: 16px;
         font-weight: 400;
         margin-left: 10px;
@@ -53,12 +61,12 @@
         transition: 0.3s;
     }
 
-    .button:hover{
+    .button-sign:hover{
         background-color: #e65c00;
         transform: scale(1.08);
     }
 
-    section{
+    .hero{
         min-height: calc(100vh - 70px); /* باقي الصفحة بعد الناف */
         display: flex;
         flex-direction: column;
@@ -66,14 +74,14 @@
         align-items: center;
         text-align: center;
 
-        background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/unnamed.webp");
+        background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/header.jpg");
         background-size: cover;       /* تملى الشاشة */
         background-position: center;  /* في النص */
         background-repeat: no-repeat;
 
     }
 
-    section h2{
+    .hero .TeamList{
         margin-bottom: 20px;
         font-size: 35px;
         color: #FF6A00;
@@ -93,39 +101,40 @@
         transform: scale(1.08);
     }
 
-
 @media (max-width: 768px){
 
-    header{
-        padding: 15px 5%;
+    .NavBar{
+        padding: 12px 5%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .Menu{
         flex-direction: column;
         gap: 10px;
     }
 
-    li{
-        display: block;
-        margin: 8px 0;
-        text-align: center;
-    }
-
-    li a{
-        margin-right: 0;
+    .ElementOfNavBar a{
         font-size: 16px;
-    }
-
-    .button{
-        margin-top: 10px;
-    }
-
-    section h2{
-        font-size: 28px;
-    }
-
-    .Names{
-        font-size: 24px;
+        margin-right: 0;
     }
 
     .logo img{
-        width: 25px;
+        width: 35px;
     }
+
+    .button-sign{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .TeamList{
+        font-size: 26px;
+    }
+
+    .Names{
+        font-size: 20px;
+    }
+
 }
+
