@@ -190,13 +190,16 @@
     .menu{
         flex-direction: column;
         gap: 10px;
+        width:100%;
+        align-items:center;
     }
 
    .menu ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+    width:100%;
    }
 
    .ElementOfNavBar{
@@ -248,5 +251,6 @@
     }
 
 }
+
 
 
