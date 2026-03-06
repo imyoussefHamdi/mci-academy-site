@@ -199,6 +199,13 @@
     gap: 10px;
    }
 
+   .ElementOfNavBar{
+    display: block;
+   }
+
+   .auth-buttons{
+    margin-top: 10px;
+   }
 
     .ElementOfNavBar a{
         font-size: 16px;
@@ -241,4 +248,5 @@
     }
 
 }
+
 
