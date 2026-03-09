@@ -185,55 +185,72 @@
 
 @media (max-width: 768px){
 
-    .navbar{
-        padding: 12px 5%;
-        flex-direction: column;
-        gap: 12px;
-    }
+.navbar{
+padding: 12px 5%;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+height: auto;
+}
 
-    .menu{
-        flex-direction: column;
-        gap: 10px;
-    }
+.menu{
+flex-direction: column;
+align-items: center;
+}
 
-    .ElementOfNavBar a{
-        font-size: 16px;
-        margin-right: 0;
-    }
+.menu ul{
+display: flex;
+flex-direction: column;
+gap: 8px;
+padding: 0;
+}
 
-    .logo img{
-        width: 35px;
-    }
+.ElementOfNavBar{
+display: block;
+}
 
-    .button-sign{
-        font-size: 14px;
-        padding: 6px 12px;
-    }
+.ElementOfNavBar a{
+margin: 0;
+font-size: 16px;
+}
 
-    .TeamList{
-        font-size: 26px;
-    }
+.auth-buttons{
+margin-top: 8px;
+}
 
-    .Names{
-        font-size: 20px;
-    }
+.logo img{
+width: 35px;
+}
 
-        /* الجديد */
+.button-sign{
+font-size: 14px;
+padding: 6px 12px;
+}
 
-    .about{
-        padding:40px 5%;
-    }
+.TeamList{
+font-size: 26px;
+}
 
-    .about-item{
-        flex-direction: column;
-        text-align:center;
-        gap:20px;
-    }
+.Names{
+font-size: 20px;
+}
 
-    .about-item img{
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+/* about section */
+
+.about{
+padding:40px 5%;
+}
+
+.about-item{
+flex-direction: column;
+text-align:center;
+gap:20px;
+}
+
+.about-item img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
 
 }
